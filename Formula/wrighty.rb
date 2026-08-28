@@ -1,24 +1,24 @@
 class Wrighty < Formula
   desc "Local-first work coordination for developers and coding agents"
   homepage "https://github.com/highbyte/wrighty"
-  version "0.17.0-alpha"
+  version "0.18.0-alpha"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/highbyte/wrighty/releases/download/v0.17.0-alpha/wrighty-0.17.0-alpha-osx-arm64.zip"
-      sha256 "c83b33b4d34f476067b0a120eac88908449409eebf23c808dae440f97e5f26d6"
+      url "https://github.com/highbyte/wrighty/releases/download/v0.18.0-alpha/wrighty-0.18.0-alpha-osx-arm64.zip"
+      sha256 "fd04a87f34aa5e21d710638d3e03ec8bcd48f8402634251ff5c9a1f08fc6e8bf"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/highbyte/wrighty/releases/download/v0.17.0-alpha/wrighty-0.17.0-alpha-linux-x64.zip"
-      sha256 "1e2ded0c30658ae314e1633525b8c226fbb378a2d3fa8810d3bc505c1d793562"
+      url "https://github.com/highbyte/wrighty/releases/download/v0.18.0-alpha/wrighty-0.18.0-alpha-linux-x64.zip"
+      sha256 "978cafadc48b79f0faab132eaf4f4e912530ca71230aa90edbc5f6de15b37b00"
     end
     on_arm do
-      url "https://github.com/highbyte/wrighty/releases/download/v0.17.0-alpha/wrighty-0.17.0-alpha-linux-arm64.zip"
-      sha256 "2c18e64658d55496375b9cedb87b3d7529d2fba96da3b30e3a2b866b8534d7aa"
+      url "https://github.com/highbyte/wrighty/releases/download/v0.18.0-alpha/wrighty-0.18.0-alpha-linux-arm64.zip"
+      sha256 "eab9dd477bbad0df56e3d4226a7566ba793459417d68b607bb0a99db710cd4a3"
     end
   end
 
